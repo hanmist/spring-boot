@@ -16,10 +16,8 @@ import java.util.Map;
 /**
  * @author hanmingxiang 2018-05-03 18:53
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = Application.class)
-@Transactional
-public class DBTest {
+
+public class DBTest extends BaseTest{
 
     @Resource
     private DataSource dataSource;
